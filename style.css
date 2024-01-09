@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+body{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    font-family: open'sans' ,sans-serif;
+}
+.title-connex {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6px;
+}
+.label-form {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+.container {
+    border: 1px solid white;
+    width: 500px;
+    padding: 40px;
+    background-color: white;
+}
+input {
+    padding: 6px;
+    outline: none;
+}
+.btn {
+    width: 417px;
+    margin-top: 10px;
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
